@@ -5,7 +5,7 @@ face_cascade = cv2.CascadeClassifier('Haarcascades/haarcascade_frontalface_defau
 eye_cascade = cv2.CascadeClassifier('Haarcascades/haarcascade_eye.xml')
  
 #Read both the images of the face and the glasses
-image = cv2.imread('images/putin.jpg')
+image = cv2.imread('images/frontalface2.jpeg')
 glass_img = cv2.imread('images/glasses2.png')
 
 #Show the frontal face image and glasses
